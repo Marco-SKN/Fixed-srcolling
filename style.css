@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0%;
+}
+
+.imgDiv1,
+.imgDiv2,
+.imgDiv3,
+.imgDiv4 {
+}
+
+.imgDiv1 {
+  position: relative;
+  background: url("./Images/starry\ mountain.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.imgDiv1 span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translateX(-50%);
+  background: rgba(10, 10, 110, 1);
+  padding: 1% 2%;
+}
+
+.textDiv {
+  padding: 10%;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.imgDiv2 {
+  background: url("./Images/foggy\ mountain.jpg");
+  position: relative;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.imgDiv3 {
+  background: url("./Images/yatch\ and\ sea.jpg");
+  position: relative;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.imgDiv4 {
+  background: url("./Images/desert.jpg");
+  position: relative;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0);
+  padding: 1% 2%;
+}
+
+.textDiv.dark {
+  color: white;
+  background: rgb(0, 20, 40);
+}
+
+.textDiv.light {
+  color: white;
+  background: rgba(141, 141, 141, 0.5);
+}
