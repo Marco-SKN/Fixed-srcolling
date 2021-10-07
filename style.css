@@ -9,12 +9,6 @@ body {
   padding: 0%;
 }
 
-.imgDiv1,
-.imgDiv2,
-.imgDiv3,
-.imgDiv4 {
-}
-
 .imgDiv1 {
   position: relative;
   background: url("./Images/starry\ mountain.jpg");
@@ -93,4 +87,13 @@ span {
 .textDiv.light {
   color: white;
   background: rgba(141, 141, 141, 0.5);
+}
+
+@media only screen and (max-device-width: 780px) {
+  .imgDiv1,
+  .imgDiv2,
+  .imgDiv3,
+  .imgDiv4 {
+    background-attachment: scroll;
+  }
 }
